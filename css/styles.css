@@ -11022,12 +11022,15 @@ body {
     transition: none;
     padding: 2rem 1.5rem;
     color: rgba(0, 0, 0, 0.5);
+    font-size: 1.25rem;
   }
   #mainNav .nav-link:hover {
     color: rgba(0, 0, 0, 0.75);
+    font-size: 1.25rem;
   }
   #mainNav .nav-link:active {
     color: #fff;
+    font-size: 1.25rem;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -11078,7 +11081,7 @@ body {
 }
 .masthead h1, .masthead .h1 {
   font-family: 'EB Garamond', serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.1rem;
   /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -11092,7 +11095,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 4rem;
   }
 }
@@ -11102,14 +11105,14 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
+    font-size: 7.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.1rem;
     color: black;
   }
   .masthead h2, .masthead .h2 {
     max-width: 100rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
