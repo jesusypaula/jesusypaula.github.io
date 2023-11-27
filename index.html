@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Paula y Jesús</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -30,15 +30,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">Dirección</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Regalo</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Confirmación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#direccion">Dirección</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#confirmacion">Confirmación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#regalo">Regalo</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" id="inicio">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
@@ -66,14 +67,14 @@
             </div>
         </section> -->
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="direccion">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/los_dos_guapos.jpeg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
+                            <!-- <h4>Shoreline</h4> -->
                             <p class="text-black-50 mb-0">Así somos de guapos.</p>
                         </div>
                     </div>
@@ -109,14 +110,21 @@
             </div>
         </section>
         <!-- Signup-->
-        <section class="signup-section" id="signup">
+        <section class="signup-section" id="confirmacion">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-black"></i>
                         <h2 class="text-black mb-5">Formulario de confirmación</h2>
 
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1jWnHFf36M1SKXqlc_oJr_Egdaq3ftAa9c93s3BBM_qq8Eg/viewform?embedded=true" width="640" height="1061" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf1jWnHFf36M1SKXqlc_oJr_Egdaq3ftAa9c93s3BBM_qq8Eg/viewform?embedded=true"
+                        width="100%"
+                        height="1300"
+                        frameborder="0"
+                        marginheight="0"
+                        marginwidth="0">
+                         Loading…
+                        </iframe>
 
 
                         <!-- * * * * * * * * * * * * * * *-->
@@ -156,10 +164,20 @@
             </div>
         </section>
         <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
+        <section class="contact-section bg-black" id="regalo">
+
+            <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h2 class="text-white-100 mx-auto mt-2 mb-5">Regalo</h2>
+                <h4 class="mb-0 text-white-50">Si nos quereis echar una mano con la vida podeis hacerlo </h4>
+                <details>
+                    <summary><h4 class="mb-0 text-white-50"><u>aquí</u></h4></summary>.
+                    <p class="mb-0 text-white-50">Tonto el que lo lea.</p>
+                </details>
+            </div>
+
+            <!-- <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
-                    <!-- <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -168,7 +186,7 @@
                                 <div class="small text-black-50">4923 Market Street, Orlando FL</div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
@@ -179,7 +197,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
@@ -188,17 +206,12 @@
                                 <div class="small text-black-50">+1 (555) 902-8832</div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
-                <!-- <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div> -->
-            </div>
+            </div> -->
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; The Chusos 2023</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2023</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
