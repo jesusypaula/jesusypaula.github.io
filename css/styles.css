@@ -249,11 +249,11 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
 }
 a:hover {
-  color: var(--bs-link-hover-color);
+  color: rgba(255, 255, 255, 1);;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -8248,6 +8248,7 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 1rem;
 }
 
 .text-white-100 {
