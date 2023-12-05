@@ -7735,6 +7735,8 @@ textarea.form-control-lg {
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
+  padding-left: 10%;
+  padding-right:10%
 }
 
 .mt-0 {
@@ -11219,4 +11221,8 @@ details > summary {
 }
 details > summary::-webkit-details-marker {
   display: none;
+}
+
+.aqui{
+  color: rgba(255, 255, 255, 0.8);
 }
