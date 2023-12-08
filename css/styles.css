@@ -7812,7 +7812,7 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin: 1.5rem !important;
 }
 
 .mb-5 {
@@ -11125,8 +11125,8 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding: 1rem;
+  background: #7CAB85;
 }
 .about-section p {
   margin-bottom: 5rem;
