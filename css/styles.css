@@ -106,6 +106,8 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'EB Garamond', serif;
+  background-color: #fede00;
 }
 
 hr {
@@ -8257,6 +8259,11 @@ textarea.form-control-lg {
   font-size: 1rem;
 }
 
+.text-cream-50 {
+  color: rgba(255, 238, 203, 0.5) !important;
+  font-size: 1.1rem;
+}
+
 .text-white-100 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 1) !important;
@@ -8325,7 +8332,8 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: #005249;
 }
 
 .bg-white {
