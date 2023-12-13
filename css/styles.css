@@ -7818,7 +7818,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .mb-auto {
@@ -8256,8 +8256,21 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
+
+.text-white-50-details{
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 1.2rem;
+}
+
+.text-cream-50-details{
+  --bs-text-opacity: 1;
+  color: rgba(255, 238, 203, 0.55) !important;
+  font-size: 1.3rem;
+}
+
 
 .text-cream-50 {
   color: rgba(255, 238, 203, 0.5) !important;
@@ -8332,8 +8345,8 @@ textarea.form-control-lg {
 
 .bg-black {
   --bs-bg-opacity: 1;
-  /* background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important; */
-  background-color: #005249;
+  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: #005249; */
 }
 
 .bg-white {
@@ -11144,6 +11157,11 @@ body {
   margin-bottom: 5rem;
 }
 
+.regalo{
+  padding-top: 3rem;
+  padding-bottom: 6.5rem;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -11188,6 +11206,7 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .contact-section .card {
   border: 0;
@@ -11236,5 +11255,10 @@ details > summary::-webkit-details-marker {
 }
 
 .aqui{
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 238, 203, 1);
+}
+
+.numero{
+  color: rgba(255, 238, 203, 1);
+  font-size: 1.3rem;
 }
