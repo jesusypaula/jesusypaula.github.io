@@ -108,6 +108,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-family: "EB Garamond", serif;
   background-color: #fede00;
+  background-image: 'assets/img/fondo_test.jpg';
 }
 
 hr {
@@ -3896,8 +3897,9 @@ textarea.form-control-lg {
   line-height: 1;
   color: var(--bs-navbar-color);
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-  border-radius: var(--bs-navbar-toggler-border-radius);
+  border: none;
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  /* border-radius: var(--bs-navbar-toggler-border-radius); */
   transition: var(--bs-navbar-toggler-transition);
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3911,7 +3913,7 @@ textarea.form-control-lg {
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  /* box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width); */
 }
 
 .navbar-toggler-icon {
@@ -11261,4 +11263,19 @@ details > summary::-webkit-details-marker {
 .numero{
   color: rgba(255, 238, 203, 1);
   font-size: 1.3rem;
+}
+
+.masthead{
+  background: url(assets/img/bg_1.png);
+  background-size: 100% auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* Media query for smaller window width */
+@media screen and (max-width: 992px) {
+  .masthead {
+      background-image: url(assets/img/bg_mov_1.png);
+      background-size: auto 100%;
+  }
 }
