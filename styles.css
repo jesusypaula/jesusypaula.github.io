@@ -11272,10 +11272,18 @@ details > summary::-webkit-details-marker {
   background-repeat: no-repeat;
 }
 
-/* Media query for smaller window width */
+.signup-section{
+  background: url(assets/img/bg_1.png);
+  background-size: 100% auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+
 @media screen and (max-width: 992px) {
   .masthead {
-      background-image: url(assets/img/bg_mov_1.png);
-      background-size: auto 100%;
+    background-image: url(assets/img/bg_mov_1.png);
+    background-size: auto 100%;
   }
+
 }
